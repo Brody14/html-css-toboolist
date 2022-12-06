@@ -6,6 +6,7 @@
 
 body {
     background-color: lightgrey;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -56,6 +57,8 @@ main {
 
 .list {
     margin: 40px 30px;
+    display: inline-block;
+    /* vertical-align: middle; */
 }
 
 ul{
@@ -65,4 +68,69 @@ ul{
 .start {
     font-size: 20px;
     font-weight: 900;
+    padding: 10px;
+}
+
+.icon-start {
+    font-size:15px;
+}
+
+.second {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0 10px 5px;
+}
+
+.check, .uncheck {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.check {
+    color: green;
+    border: 2px solid green;
+}
+
+.uncheck {
+    color: red;
+    border: 2px solid red;
+}
+
+.label {
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+#editorial {
+    background-color: #40A9F0;
+}
+
+#goals {
+    background-color: #9C72E4;
+}
+
+#recruiting {
+    background-color: #64C0A9;
+}
+
+#mobile {
+    background-color: #F29E33;
+}
+
+#website {
+    background-color: #D863A1;
+}
+
+#sales {
+    background-color: #B0C926;
 }
